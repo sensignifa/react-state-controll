@@ -1,0 +1,199 @@
+html
+    width 100vw
+    margin 0px
+    padding 0px
+    overflow-x hidden !important
+
+body
+    margin 0px
+    padding 0px
+
+.application-container
+    padding 0 10vw
+    width 80vw
+
+    @media screen and (max-width: 1024px)
+        padding 0 3vw
+        width 94vw
+
+.ml-1
+    margin-left 1rem
+
+.mt-1
+    margin-top 1rem
+
+.pl-1
+    padding-left 1rem
+
+.pt-1
+    padding-top 1rem
+
+.pb-1
+    padding-bottom 1rem
+
+.px-1
+    padding 0px 0.5rem
+
+.py-1
+    padding 0.5rem 0px
+
+.dy-i
+    display inline
+
+.dy-grid
+    display grid
+
+.dy-inline-flex
+    display inline-flex
+
+.flex-1
+    flex 1
+
+.flex-2
+    flex 2
+
+.flex-grow-2
+    flex-grow 2
+
+.flex-grow-1
+    flex-grow 1
+
+.justify-space-between
+    justify-content space-between
+
+.justify-center
+    justify-content center
+
+.w-100
+    width: 100%
+
+.bdr-t-black
+    border-top 1px solid black
+
+.bdr-b-black
+    border-bottom 1px solid black
+
+.fw-bold
+    font-weight bold
+
+.none
+    display none
+
+.gm-describe
+    font-size 16px
+    font-weight 400
+
+.gm-bar
+    width 100%
+    border-bottom: 1px solid black
+
+.gm-button
+    cursor pointer
+    background transparent
+    border 1px solid black
+    border-radius 4px
+    font-size: 1rem
+
+.gm-button-disabled
+    pointer-events none
+    border 1px solid grey
+    color grey
+
+
+.gm-option-container
+    display inline-flex
+    flex-wrap wrap
+
+.gm-option-button
+    cursor pointer
+    background transparent
+    width 50px
+    height 50px
+    border 1px solid black
+    border-radius 50%
+    font-size: 1rem
+
+    @media screen and (max-width: 700px)
+        width 30px
+        height 30px
+
+    @media screen and (max-width: 465px)
+        width 25px
+        height 25px
+
+.gm-option-key
+    cursor pointer
+    background transparent
+    width 35px
+    height 35px
+    margin-top 2%
+    border 1px solid black
+    border-radius 5px
+    font-size: 1rem
+
+    @media screen and (max-width: 700px)
+        width 30px
+        height 30px
+    
+    @media screen and (max-width: 465px)
+        width 30px
+        height 30px
+
+.gm-option-name
+    padding-left 2vw
+    align-items center
+
+    @media screen and (max-width: 1024px)
+        padding-left 0vw
+
+.gm-option-selected
+    background black
+    color white
+
+.gm-sum-method
+    width 100%
+    border-top 1px solid black
+    border-bottom 1px solid black
+    display inline-flex
+    justify-content center
+    padding 0.5rem 0px
+
+.gm-sum-button
+    cursor pointer
+    background transparent
+    border 1px solid black
+    padding 5px 40px
+    border-radius 15px
+    font-size: 1rem
+
+.gm-multiple-method
+    width 100%
+    height 300px
+    display grid
+    grid-template-columns 70% 30%
+    grid-template-rows repeat(3, 1fr)
+
+
+.gm-multiple-method-describe
+    display grid
+    grid-row-start 1
+    grid-row-end 4
+    background #c7c7c7
+    border-radius 5px
+    padding 20px 20px
+
+.gm-multiple-method-file
+    cursor pointer
+    margin-left 1rem
+    width calc(100% - 1rem)
+    height 60px
+    opacity 0
+    border 1px solid black
+    position absolute
+    top 0
+    left 0
+
+.gm-selected
+    pointer-events none
+    background black
+    color white
